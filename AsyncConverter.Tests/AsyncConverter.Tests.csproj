@@ -390,6 +390,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Analyzers\AsyncAwaitMayBeElidedHighlightingTests.cs" />
+    <Compile Include="Analyzers\AwaitForgottenInUsingHighlightingTests.cs" />
     <Compile Include="Analyzers\CanBeUseAsyncMethodHighlightingTests.cs" />
     <Compile Include="Analyzers\HighlightingsTestsBase.cs" />
     <Compile Include="Analyzers\ConfigureAwaitHighlightingTests.cs" />
