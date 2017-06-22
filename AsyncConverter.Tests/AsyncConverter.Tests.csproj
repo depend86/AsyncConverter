@@ -408,6 +408,8 @@
     <Compile Include="ContextActions\MethodToAsyncConverterAvailabilityTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestEnvironment.cs" />
+    <None Include="Test\Data\AwaitForgottenInUsingHighlightingTests\IDisposable.cs" />
+    <None Include="Test\Data\AwaitForgottenInUsingHighlightingTests\IDisposable.cs.gold" />
     <None Include="Test\Data\AsyncAwaitMayBeElidedHighlightingTests\IfInFor.cs" />
     <None Include="Test\Data\AsyncAwaitMayBeElidedHighlightingTests\DoWhile.cs" />
     <None Include="Test\Data\AsyncAwaitMayBeElidedHighlightingTests\IfInFor.cs.gold" />
