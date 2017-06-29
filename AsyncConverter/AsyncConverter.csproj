@@ -401,6 +401,8 @@
     <Compile Include="AsyncHelpers\RenameCheckers\ControllerRenameChecker.cs" />
     <Compile Include="AsyncHelpers\RenameCheckers\TestAsyncMethodRenameChecker.cs" />
     <Compile Include="ContextActions\MethodToAsyncConverter.cs" />
+    <Compile Include="CurrentClassInfo.cs" />
+    <Compile Include="GenerateTestMethodConverter.cs" />
     <Compile Include="Helpers\AsyncInvocationReplacer.cs" />
     <Compile Include="Helpers\AsyncReplacer.cs" />
     <Compile Include="Helpers\AwaitEliderChecker.cs" />
@@ -432,6 +434,8 @@
     <Compile Include="QuickFixes\ReturnNullToTask.cs" />
     <Compile Include="QuickFixes\ReturnValueAsTask.cs" />
     <Compile Include="QuickFixes\ArgumentValueAsTask.cs" />
+    <Compile Include="UnitTestCodeGenerator.cs" />
+    <Compile Include="UnitTestCodeWriter.cs" />
     <Compile Include="ZoneMarker.cs" />
   </ItemGroup>
   <ItemGroup>
